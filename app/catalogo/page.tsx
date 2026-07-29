@@ -37,12 +37,10 @@ export default function CatalogoPage() {
 
       <div className="bg-[#FFC107] rounded-xl p-8 text-center mt-8">
         <h3 className="text-2xl font-black text-[#1A1A1A] mb-2">
-          {t.lang === "es" ? "¿No encontraste lo que buscas?" : "Didn't find what you need?"}
+          {t.catalog.notFoundTitle}
         </h3>
         <p className="text-[#1A1A1A]/70 mb-4">
-          {t.lang === "es"
-            ? "Escríbenos por WhatsApp y te ayudamos."
-            : "Message us on WhatsApp and we will help you."}
+          {t.catalog.notFoundMessage}
         </p>
         <a
           href="https://wa.me/573116201961"

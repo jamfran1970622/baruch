@@ -42,6 +42,8 @@ export const translations = {
       title: "Catálogo de Productos",
       subtitle: "Todo lo que necesitas para tu obra o proyecto.",
       quote: "Cotizar",
+      notFoundTitle: "¿No encontraste lo que buscas?",
+      notFoundMessage: "Escríbenos por WhatsApp y te ayudamos.",
       steel: {
         name: "Aceros y Perfiles",
         items: [
@@ -156,6 +158,8 @@ export const translations = {
       title: "Product Catalog",
       subtitle: "Everything you need for your project or construction site.",
       quote: "Get Quote",
+      notFoundTitle: "Didn't find what you need?",
+      notFoundMessage: "Message us on WhatsApp and we will help you.",
       steel: {
         name: "Steels & Profiles",
         items: [
